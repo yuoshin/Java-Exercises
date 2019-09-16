@@ -1,0 +1,19 @@
+package MainRough;
+
+public class test{
+	public static String HighAndLow(String numbers){
+		numbers = "5 6 80 1 843 61";
+		return numbers;
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		test obj = new test();
+		obj.HighAndLow("6 1 8 3 4");
+	}
+}
+
+
+

@@ -1,0 +1,17 @@
+package rough;
+
+public class RoughMain {
+	public static void main(String[] args) {
+		int numberMax = Integer.MAX_VALUE;
+		int numberMin = Integer.MIN_VALUE;
+		int[] arr = {43, 724,9543};
+		
+		for(int num:arr) {
+			if(num < numberMin) {
+				num = numberMin;
+			}
+		}
+		System.out.println(numberMax);
+		System.out.println(numberMin);
+	}
+}

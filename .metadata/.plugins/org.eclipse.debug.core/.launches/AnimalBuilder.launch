@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/9.7 Using the Builder Pattern/src/usingTheBuilderPattern/AnimalBuilder.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="usingTheBuilderPattern.AnimalBuilder"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="9.7 Using the Builder Pattern"/>
+</launchConfiguration>

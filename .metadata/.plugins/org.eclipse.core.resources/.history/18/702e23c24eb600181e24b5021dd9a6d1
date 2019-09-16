@@ -1,0 +1,19 @@
+/* 
+ * Given a string , print Yes if it is a palindrome, print No otherwise.
+ * A palindrome is a word, phrase, number, or other sequence of characters \
+ * which reads the same backward or forward.
+ */
+
+public class mainClass {
+	public static void main(String[] args) {
+
+		String a = "madam";	
+		StringBuilder sb = new StringBuilder(a);	//To use reverse method, need to use StringBuilder
+		String b = sb.reverse().toString();			//Reverse the string and convert back to String
+		if (a.equals(b)) {							//For String, must use equals() method instead of ==
+			System.out.print("True");
+		} else
+			System.out.print("False");
+
+	}
+}

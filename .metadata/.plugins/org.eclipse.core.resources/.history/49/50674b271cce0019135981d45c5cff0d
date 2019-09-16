@@ -1,0 +1,27 @@
+package tryWithResources;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.nio.file.Files;
+
+public class TryWithResources {
+	
+	/*
+	 * The new try-with-resources statement automatically closes all resources opened in the try clause.
+	 */
+	
+	
+
+	public static void main(String[] args) {
+		try(BufferedReader r = Files.newBufferedReader(path1); BufferedWriter w = Files.newBufferedWriter(path2)){
+			
+			
+		}
+
+	}
+	
+	public void pathMethod(File path1, File path2) {
+		
+	}
+
+}

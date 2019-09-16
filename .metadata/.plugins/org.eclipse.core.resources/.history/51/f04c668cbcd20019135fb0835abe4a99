@@ -1,0 +1,10 @@
+package rethrowingExceptions;
+
+public class RethrowingExceptions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

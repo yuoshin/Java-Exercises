@@ -1,0 +1,23 @@
+package rethrowingExceptions;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+public class RethrowingExceptions {
+	
+	public static void multiCatch() throws IOException,SQLException, NullPointerException{
+		System.err.println("Caught");
+		throw new IOException();
+		
+	}
+
+	//Using multi catch
+	public static void main(String[] args) {
+		try {
+			multiCatch();
+		}catch(IOException | SQLException e) {
+			e.getMessage();
+		}
+	}
+
+}

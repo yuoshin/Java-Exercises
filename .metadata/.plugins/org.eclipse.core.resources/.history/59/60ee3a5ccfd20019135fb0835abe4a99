@@ -1,0 +1,12 @@
+package workingWithAssertions;
+
+public class AssertionsMain {
+
+	public static void main(String[] args) {
+		int numOfPeople = -5;
+		assert numOfPeople < 0;
+		System.out.println(numOfPeople);
+
+	}
+
+}

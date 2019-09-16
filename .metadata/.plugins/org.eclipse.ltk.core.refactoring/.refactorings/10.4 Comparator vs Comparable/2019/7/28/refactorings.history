@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;comparable.Main&apos; to &apos;Duck&apos;&#x0D;&#x0A;- Original project: &apos;10.3 Comparator vs Comparable&apos;&#x0D;&#x0A;- Original element: &apos;comparable.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;comparable.Duck&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;comparable{Main.java[Main" matchStrategy="1" name="Duck" qualified="false" references="true" similarDeclarations="false" stamp="1562916823605" textual="false" version="1.0"/>
+</session>

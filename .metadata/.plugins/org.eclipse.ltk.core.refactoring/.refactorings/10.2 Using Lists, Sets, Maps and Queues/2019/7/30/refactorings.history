@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;newMap&apos; in &apos;map.NewJava8MapApis.main(...)&apos; to &apos;putifabsent&apos;&#x0D;&#x0A;- Original project: &apos;10.2 Using Lists, Sets, Maps and Queues&apos;&#x0D;&#x0A;- Original element: &apos;map.NewJava8MapApis.main(String[]).newMap&apos;&#x0D;&#x0A;- Renamed element: &apos;newMap&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;newMap&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;map{NewJava8MapApis.java[NewJava8MapApis~main~\[QString;@newMap!141!186!162!167!QMap\&lt;QInteger;QString;&gt;;!0!false" name="putifabsent" references="true" stamp="1563778612104" version="1.0"/>
+</session>

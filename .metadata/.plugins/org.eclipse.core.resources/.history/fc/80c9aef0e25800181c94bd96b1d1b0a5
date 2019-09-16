@@ -1,0 +1,16 @@
+public class mainClass{
+public static void main(String[] args) {
+        
+       	String a = "madam";
+       	StringBuilder sb = new StringBuilder(a);
+       	String b = sb.reverse().toString();
+       	if (a.equals(b)) {
+       		System.out.print("True");
+       	}
+       	else
+       		System.out.print("False");
+
+    }
+}
+
+

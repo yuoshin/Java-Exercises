@@ -1,0 +1,8 @@
+package rough;
+
+public class RoughMain {
+	public static void main(String[] args) {
+		int number = Integer.MAX_VALUE;
+		System.out.println(number);
+	}
+}

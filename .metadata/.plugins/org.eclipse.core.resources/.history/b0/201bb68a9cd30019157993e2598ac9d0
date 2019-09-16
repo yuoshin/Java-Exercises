@@ -1,0 +1,10 @@
+package testla;
+
+import java.util.*;
+
+class testlaMain {
+
+	public static void main(String[] args) {
+		System.out.println("Hello world!!!");
+	}
+}

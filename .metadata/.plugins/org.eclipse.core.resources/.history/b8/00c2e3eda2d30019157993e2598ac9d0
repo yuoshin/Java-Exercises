@@ -1,0 +1,19 @@
+package testla;
+
+import java.util.*;
+
+class testlaMain {
+	
+	public static void main(String[] args) {
+		printNumber(10);
+	}
+	
+	public void printNumber(int num) {
+		if(num<=100) {
+			System.out.println(num);
+			num++;
+		}
+	}
+	
+}
+	

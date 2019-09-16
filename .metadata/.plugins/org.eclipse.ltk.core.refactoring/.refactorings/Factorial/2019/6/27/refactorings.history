@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;factorial&apos; to &apos;InterviewPractical/src&apos;&#x0D;&#x0A;- Original project: &apos;Factorial&apos;&#x0D;&#x0A;- Destination element: &apos;InterviewPractical/src&apos;&#x0D;&#x0A;- Original element: &apos;Factorial/src/factorial&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=InterviewPractical/src" element1="/src&lt;factorial" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1561883746000" version="1.0"/>
+</session>

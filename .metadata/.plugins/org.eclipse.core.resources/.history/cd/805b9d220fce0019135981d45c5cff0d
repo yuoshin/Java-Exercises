@@ -1,0 +1,27 @@
+package customexceptions;
+
+import java.io.File;
+
+public class CustomExceptions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class MyException1 extends Exception{
+	
+}
+
+class MyException2 extends MyException1{
+	
+}
+
+class MyException3 {
+	void exceptionMethod() throws MyException1 {
+		File newFile = new File(file.txt);
+	}
+}
+

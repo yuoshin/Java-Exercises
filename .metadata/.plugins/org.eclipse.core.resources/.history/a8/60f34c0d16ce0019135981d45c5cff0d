@@ -1,0 +1,22 @@
+package multicatch;
+
+public class MultiCatch {
+
+	public static void main(String[] args){
+		try {
+			throw new Exception2();
+		}catch(Exception2 | Exception1 e) {
+			
+		}
+
+	}
+
+}
+
+class Exception1 extends Exception{
+	
+}
+
+class Exception2 extends RuntimeException{
+	
+}

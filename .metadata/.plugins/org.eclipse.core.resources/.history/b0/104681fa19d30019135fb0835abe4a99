@@ -1,0 +1,11 @@
+package rough;
+
+public class RoughMain {
+	public static void main(String[] args) {
+		int numberMax = Integer.MAX_VALUE;
+		int numberMin = Integer.MIN_VALUE;
+		long[] arr = {-5353462443534l,43, 724,9543};
+		System.out.println(numberMax);
+		System.out.println(numberMin);
+	}
+}

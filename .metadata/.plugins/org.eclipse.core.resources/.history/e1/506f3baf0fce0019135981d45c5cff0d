@@ -1,0 +1,34 @@
+package customexceptions;
+
+import java.io.File;
+
+public class CustomExceptions {
+
+	public static void main(String[] args) {
+		MyException3 obj = new MyException3();
+		try {
+			obj.exceptionMethod();
+		}catch(Exception e) {
+			System.out.println("Huh?");
+		}
+		
+
+
+	}
+
+}
+
+class MyException1 extends Exception{
+	
+}
+
+class MyException2 extends MyException1{
+	
+}
+
+class MyException3 {
+	void exceptionMethod() throws MyException1 {
+			File newFile = new File("file.txt");
+	}
+}
+

@@ -1,0 +1,22 @@
+package rethrowingExceptions;
+
+import java.io.IOException;
+import java.nio.channels.MulticastChannel;
+
+public class RethrowingExceptions {
+	
+	public void multiCatch() throws IOException{
+		throw new IOException();
+		
+	}
+
+	public static void main(String[] args) {
+		try {
+			multiCatch();
+		}catch() {
+			
+		}
+
+	}
+
+}

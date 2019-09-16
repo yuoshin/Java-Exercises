@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;findFirstNonRepeatedChar&apos; to &apos;InterviewPractical/src&apos;&#x0D;&#x0A;- Original project: &apos;FindFirstNonRepeatedChar&apos;&#x0D;&#x0A;- Destination element: &apos;InterviewPractical/src&apos;&#x0D;&#x0A;- Original element: &apos;FindFirstNonRepeatedChar/src/findFirstNonRepeatedChar&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=InterviewPractical/src" element1="/src&lt;findFirstNonRepeatedChar" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1561883786141" version="1.0"/>
+</session>

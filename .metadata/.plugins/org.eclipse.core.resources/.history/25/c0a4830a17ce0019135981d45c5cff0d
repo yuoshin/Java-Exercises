@@ -1,0 +1,25 @@
+package multicatch;
+
+import java.lang.Exception;
+
+public class MultiCatch {
+
+	public static void main(String[] args){
+		try {
+			System.out.println("Try block");
+			throw new Exception2();
+		}catch(Exception2 | Exception1 e) {
+			System.out.println("Exception caught!");
+		}
+
+	}
+
+}
+
+class Exception1 extends ClassCastException{
+	
+}
+
+class Exception2 extends GSSException{
+	
+}
